@@ -1,0 +1,85 @@
+<!doctype html><!--HTML5 doctype declaration -->
+<html lang="en"><!--default language of the document content -->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" media="screen and (min-width: 947px) and (max-width: 1920px)" href="css/index.css">
+    <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 946px)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 600px)" href="css/smartphone.css">
+    <title>Contact Me</title>
+</head>
+
+<!--Start of body-->
+<body>
+
+    <h1 id="Contact-Title"class="All-Titles">Contact me</h1>
+
+<nav class="Nav-Bar"><!--The primary navigation of the website-->
+    <ul>
+        <li id="LJ-Button"><a href='index.html'>Learning Journal</a></li>
+        <li id="Tutorial-Button"><a href="tutorial.html">Tutorial</a></li>   
+        <li id="Contact-Button"><a href="#">Contact me</a></li>
+    </ul>    
+</nav><!--The primary navigation of the website-->
+
+        <h2 id="Contact-Sub-Title" class="All-Sub-Titles">Confused about something?</h2>
+
+
+<main>
+    <div class="Contact-Form-Layout">
+        <p>Reach out using this form so that I can assist you!</p>
+        <form id="Contact-Form" action="/processing-form-page" method="post">
+            <fieldset id="group1">
+                <legend>Your Details</legend>
+                    <label>First name (required)</label>
+                    <input type="text" class="Gen-Text-Fields" placeholder="e.g. Bob" required/>
+                    <label>Surname (required)</label>
+                    <input type="text" class="Gen-Text-Fields" placeholder="e.g. Bob son" required/>
+                    <label>Email (required)</label>
+                    <input type="email" class="Gen-Text-Fields" placeholder="e.g. bobbobson@example.com" required/>
+            </fieldset>
+            <fieldset id="group2">
+                <legend>Your Experience</legend>
+                    <label for="Website-XP">Did you enjoy the website? (optional)</legend>
+                    <label>Yes<input type="radio" name="Details1" value="Yes"/></label>
+                    <label>No<input type="radio" name="Details1" value="No"/></label>
+                    <label>Kind of<input type="radio" name="Details1" value="Kind-Of"/></label>
+                    <label for="Usage">Was the website easy to use? (optional)</label>
+                    <label>Yes<input type="radio" name="Details2" value="Yes"/></label>
+                    <label>No<input type="radio" name="Details2" value="No"/></label>
+                    <label>Kind of<input type="radio" name="Details2" value="Kind-Of"/></label>
+                    <label for="comment">Any further comments:</label>
+                    <textarea></textarea>
+                    <input type="submit" value="Submit" id="Submit-Button"/>
+            </fieldset>
+        </form>
+    </div>
+</main> 
+
+<!--References & Weekly Navigation container-->
+<div class="Menu-Container"> 
+    <div class="Left-Container Container-Styles"> <!--References (Bibliography)-->
+        <h2 class="References">References:</h2>
+
+        <a href="https://developer.mozilla.org/en-US/">
+            <img id="MDN-Site-Reference" src="images/mdnreference.jpg" alt="MDN Site Reference">
+        </a>
+        <a href="https://www.w3schools.com/">
+            <img id="W3s-Site-Reference" src="images/w3schoolsref.jpg" alt="W3schools Site Reference">
+        </a>
+        <a href="https://stackoverflow.com/">
+            <img id="SOF-Site-Reference" src="images/stackoverflowref.png" alt="StackOverflow Site Reference">
+        </a>
+        <a href="https://www.fabriziovanmarciano.com/button-styles/">
+            <img id="FVM-Site-Reference" src="images/fvmref.jpg" alt="Fabrizio Van Marciano Site Reference">
+        </a>
+    </div> <!--References (Bibliography)-->
+</div>
+
+<!--References & Weekly Navigation container-->
+</body>
+</html>
+
