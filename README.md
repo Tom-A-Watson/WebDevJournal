@@ -9,3 +9,5 @@ difficult as I did not have any previous experience when it came to coding websi
 website. which outlines 10 weeks of learning various HTML and CSS fundamentals. This website contains the code & images that I used for my submssion, with some very minor tweaks
 to make it appropriate for public access. I do plan on updating this README and the site itself, as I was unfortunately not skilled enough at the time to make the site fully
 responsive.
+
+***(Plans to amend this soon)***
