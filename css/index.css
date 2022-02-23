@@ -31,9 +31,6 @@ form {
     width: 40%;
     font-family: 'Montserrat', sans-serif;
 }
-input {
-    display: block;
-}
 input[type=text] {
     border: 2px solid rgba(17, 255, 17, 1);
     border-radius: 8px;
@@ -44,8 +41,12 @@ input[type=email] {
     border-radius: 8px;
     background-color:rgb(0, 0, 0);
 }
-input, select, textarea {
+input, select, textarea, label {
     color: white;
+    margin: auto;
+}
+label {
+    margin: 2vw 1.25vw;
 }
 textarea {
     width: 95%;
@@ -218,29 +219,29 @@ caption { /* Tutorial page table caption settings */
 #Tip-Buttons {
     font-size: 1.5em;
     position: fixed;
-    left: 78.5%;
-    top: 33vh;
+    left: 80%;
+    top: 31vh;
 }
 #Tip-Buttons li {
     display: inline-block;
-    margin-right: 5%;
+    padding: 2mm;
     margin-bottom: 10%;
 }
 .All-Tip-Buttons {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.8em;
     color: white;
     text-align: center;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    padding-top: 0.6vw;
-    padding-bottom: 0.6vw;
-    font-weight: normal;
+    padding: 0.8vw;
+    font-weight: bold;
     background-color: rgb(0, 0, 0);
     border-radius: 20px;
-    border: white solid 0.1vw;
+    border: white solid 0.12vw;
     text-decoration: none;
     transition: all 0.4s ease 0s;
+}
+#Tip-Buttons > li:last-child {
+    margin-left: 22%;
 }
 @media only screen and (max-width: 1218px) {
     #Tip-Buttons {
@@ -293,15 +294,14 @@ caption { /* Tutorial page table caption settings */
 /* The website's navigation & button settings */
 /* Contact page form settings */
 #group1 {
-    width: 155%;
+    width: 200%;
     position: relative;
-    left: 148%;
+    left: 30%;
+    top: 10vh;
 }
 .Gen-Text-Fields {
     width: 60%;
     height: 2vh;
-    margin-top: 2mm;
-    margin-bottom: 2mm;
 }
 .Radio-Inline {
     display: inline-block;
@@ -309,8 +309,8 @@ caption { /* Tutorial page table caption settings */
 #group2 {
     width: 170%;
     position: relative;
-    left: 140%;
-    margin-bottom: 8mm;
+    left: 32.5vw;
+    bottom: 12.5vh;
 }
 #Submit-Button {
     background-color: black;
@@ -318,8 +318,7 @@ caption { /* Tutorial page table caption settings */
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 1em;
-    margin-left: 78%;
-    margin-top: 1vh;
+    margin-left: 38%;
 }
 /* Contact page form settings */
 /* Rule-sets for the 3 pages' content */
@@ -855,7 +854,7 @@ caption { /* Tutorial page table caption settings */
     float: right;
     padding-left: 10%;
     margin-left: 79.4%;
-    padding-bottom: 28vh;
+    padding-bottom: 32.5vh;
 }
 .Right-Container h3 {
     color: white;
@@ -881,12 +880,12 @@ caption { /* Tutorial page table caption settings */
 }
 #Weekly-Navigation {
     color: white;
-    text-align: right;
+    width: max-content;
+    text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.35vw;
     position: relative;
-    bottom: 1vh;
-    right: 2vw;
+    right: 6vw;
 }
 @media only screen and (max-width: 1083px) {
     #Weekly-Navigation {
@@ -915,12 +914,6 @@ caption { /* Tutorial page table caption settings */
     top: 28vh;
     right: 2%;
     word-spacing: 0.3vw;
-}
-#Tips-Navigation {
-    color: white;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.35vw;
 }
 .References {
     color: white;
